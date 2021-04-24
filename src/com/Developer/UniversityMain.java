@@ -43,6 +43,22 @@ public class UniversityMain {
         student1.coursesRegistration("chemistry");
         student1.coursesDegistration("Economics of landuse");
 
+        Students student2 = new Students("Mike","2234","universitat Strasse 13",11-10-1981);
+        student2.displayWelcomeAddress();
+        // student1.examdate("23-03-2022");
+        student2.schoolResumptionDate();
+        student2.schoolClosingDate();
+
+        System.out.println("Department of the student = " + student2.getDepartment());
+        student2.nameOfStudent("christian");
+        student2.studentMatriculationNumber("2234");
+        student2.StudentAddress("universitat stasse 13");
+        student2.studentDateOfBirth("16th november,1991");
+        student2.coursesRegistration("English");
+        student2.coursesRegistration("philosophy");
+        student2.coursesRegistration("lab work");
+        student2.coursesDegistration("Economics of landuse");
+
 
 
 
