@@ -17,15 +17,34 @@ public class UniversityMain {
         Department department1 = new Department("Ecology",300,25);
         department1.displayWelcomeAddress();
         System.out.println(String.format("The name of the department is %S: with the following address %s: have the following number of students %s: and the following number of staff:%s",
-                department1.getDepartment(),department1.getAddress(),
-                department1.getNoOfStudents(),department1.getNoOfStaff())) ;
+                department1.getDepartment(),department1.getAddress(), department1.getNoOfStudents(),department1.getNoOfStaff()));
+
         department1.schoolResumptionDate();
+        //department1.examdate("21-03-2022");
         department1.schoolClosingDate();
         department1.startCourseRegisteration("3rd october,2021");
         department1.endCourseDegisteration("25th october,2021");
         department1.startExamsRegistration("25th october,2021");
         department1.endOfexamRegistration("14th november,2021");
-        department1.examdate(21-03-2022);
+
+        Students student1 = new Students("Christo","1234","universitat Strasse 11",11-10-1991);
+        student1.displayWelcomeAddress();
+       // student1.examdate("23-03-2022");
+        student1.schoolResumptionDate();
+        student1.schoolClosingDate();
+
+        System.out.println("Department of the student = " + student1.getDepartment());
+        student1.nameOfStudent("lordii");
+        student1.studentMatriculationNumber("1234");
+        student1.StudentAddress("universitat stasse 11");
+        student1.studentDateOfBirth("16th october,1991");
+        student1.coursesRegistration("Math");
+        student1.coursesRegistration("philosophy");
+        student1.coursesRegistration("chemistry");
+        student1.coursesDegistration("Economics of landuse");
+
+
+
 
 
     }

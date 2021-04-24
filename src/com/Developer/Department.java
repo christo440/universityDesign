@@ -43,8 +43,8 @@ public class Department extends University {
         this.noOfStaff = noOfStaff;
     }
 
-    public void examdate(int date){
-        System.out.print("Departmental exams start on" + date);
+    public void examdate(String date){
+        System.out.print("Departmental exams start on " + date);
     }
     public void startCourseRegisteration(String date){
 
